@@ -1,0 +1,111 @@
+/*================================================================================
+=============| V A R I A B L E S |================================================
+================================================================================*/
+
+:root {
+
+    /*__ Fonts __*/
+    --title-font     : 'Permanent Marker', cursive;
+    --sub-title-font : 'Rock Salt', cursive;
+    --text-font      : 'Special Elite', cursive;
+
+    /*__ Font sizes __*/
+    --title-big-size       : 4.5em;
+    --title-small-size     : 2.5em;
+    --sub-title-big-size   : 2.0em;
+    --sub-title-small-size : 1.2em;
+    --text-big-size        : 1.2em;
+    --text-regular-size    : 1.0em;
+    --text-small-size      : 0.8em;
+
+    /*__ Font Size Margin Corrector __*/
+    
+            /* TITLE */ 
+        --title-big-top : -30px;
+        --title-big-btm : -20px;
+        --title-small-top : -20px;
+        --title-small-btm : -10px;
+
+            /* SUB-TITLE */ 
+        --sub-title-big-top : -20px;
+        --sub-title-big-btm : -15px;
+        --sub-title-small-top : -10px;
+        --sub-title-small-btm : -10px;
+
+    /*__ Colors __*/
+
+            /* BASIK */ 
+        --blk : #0c0c0c;
+        --wte : #fafafa;
+            /* PINK */ 
+        --red-pnk  : #ff2675;
+        --pnk      : #f222ff;
+        --pnk-dark : #d30cb8;
+        --pnk-lgt  : #ef9af2;
+            /* PURPPLE */ 
+        --prpl      : #8c1eff;
+        --prpl-deep : #570296;
+        --prpl-dark : #5c2c6d;
+        --prpl-grey : #3c345c;
+            /* BLUE */ 
+        --blu     : #3300d8;    
+        --blu-ngt : #240c76;
+            /* TURQUOISE */ 
+        --tkz     : #6df1d8;
+        --tkz-drk : #5da4a6;
+            /* HOT COLORS */ 
+        --ylw : #ffd319;
+        --org : #ff901f;
+
+}
+
+/*================================================================================
+=============| G L O B A L |======================================================
+================================================================================*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: var(--text-regular-size);
+    font-weight: 400;
+}
+
+body {
+    background-color: var(--blk);
+    color: var(--wte);
+    font-family: var(--text-font);
+    min-width: 320px;
+}
+
+h1 {
+    font-family: var(--title-font);
+    font-size: var(--title-big-size);
+    margin-top: var(--title-big-top);
+    margin-bottom: var(--title-big-btm);
+
+}
+
+h2, h3, h4 {
+    font-family: var(--sub-title-font);
+    font-size: var(--sub-title-big-size);
+    margin-top: var(--sub-title-big-top);
+    margin-bottom: var(--sub-title-big-btm);
+}
+
+.lil-title {
+    font-size: var(--title-small-size);
+}
+.lil-sub-title {
+    font-size: var(--sub-title-small-size);
+}
+
+p {
+    font-size: var(--text-regular-size);
+}
+
+a {
+    text-decoration: none;
+    text-transform: none;
+    color: var(--fontColor);
+}
