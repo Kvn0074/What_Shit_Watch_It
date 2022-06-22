@@ -108,13 +108,6 @@ h3, h4, h5, h6 {
     font-size: var(--sub-title-size);
 }
 
-.lil-title {
-    font-size: var(--title-small-size);
-}
-.lil-sub-title {
-    font-size: var(--sub-title-small-size);
-}
-
 p {
     font-size: var(--text-regular-size);
 }
