@@ -11,14 +11,22 @@
     --text-font      : 'Special Elite', cursive;
 
     /*__ Font sizes __*/
-    --h1-big-size       : 4.5em;
-    --h1-small-size     : 2.5em;
-    --h2-big-size       : 2.0em;
-    --h2-small-size     : 1.2em;
-    --sub-title-size    : 1.5em;
-    --text-big-size     : 1.2em;
-    --text-regular-size : 1.0em;
-    --text-small-size   : 0.8em;
+
+            /* H1-TITLE */ 
+        --h1-big-size       : 4.5em;
+        --h1-small-size     : 2.5em;
+
+            /* H2-TITLE */ 
+        --h2-big-size       : 2.0em;
+        --h2-small-size     : 1.2em;
+
+            /* SUB-TITLE */ 
+        --sub-title-size    : 1.5em;
+
+            /* TEXT */ 
+        --text-big-size     : 1.2em;
+        --text-regular-size : 1.0em;
+        --text-small-size   : 0.8em;
 
     /*__ Font Size Margin Corrector __*/
 
