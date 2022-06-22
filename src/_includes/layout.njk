@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <meta property="og:title" content="What Shit? Watch It!">
+        <meta property="og:url" content="#">
+        <meta property="og:image" content="https://#/assets/pics/infoWhatPink.jpg">
+        <meta property="og:description" content="Parlons cinéma, séries...">
+        <meta property="og:site_name" content="What Shit? Watch It!">
+        <meta property="og:type" content="site web">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Rock+Salt&family=Special+Elite&display=swap" rel="stylesheet">
+
+         <link rel="icon" type="image/png" href="/assets/pics/wwFavicon.jpg">
+
+        <title>What Shit ! | {{pageTitle}}</title>
+
+        <link rel="stylesheet" href="{{'/assets/style/default.css' | url }}">
+    </head>
+
+    <body>
+        <div class="window">
+
+            <div class="stuff-container">
+
+                {{ content | safe }}
+
+            </div>
+
+        </div>
+        
+        <script src="{{'/assets/script/bootstrap.bundle.min.js' | url }}"></script>
+        <script src="{{'/assets/script/script.js' | url }}"></script>
+        <script src="{{pageScript}}"></script>  
+    </body>
+
+</html>
