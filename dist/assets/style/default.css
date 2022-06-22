@@ -5,32 +5,34 @@
 :root {
 
     /*__ Fonts __*/
-    --title-font     : 'Permanent Marker', cursive;
-    --sub-title-font : 'Rock Salt', cursive;
+    --h1-font        : 'Permanent Marker', cursive;
+    --h2-font        : 'Rock Salt', cursive;
+    --sub-title-font : 'Righteous', cursive;
     --text-font      : 'Special Elite', cursive;
 
     /*__ Font sizes __*/
-    --title-big-size       : 4.5em;
-    --title-small-size     : 2.5em;
-    --sub-title-big-size   : 2.0em;
-    --sub-title-small-size : 1.2em;
-    --text-big-size        : 1.2em;
-    --text-regular-size    : 1.0em;
-    --text-small-size      : 0.8em;
+    --h1-big-size       : 4.5em;
+    --h1-small-size     : 2.5em;
+    --h2-big-size       : 2.0em;
+    --h2-small-size     : 1.2em;
+    --sub-title-size    : 1.5em;
+    --text-big-size     : 1.2em;
+    --text-regular-size : 1.0em;
+    --text-small-size   : 0.8em;
 
     /*__ Font Size Margin Corrector __*/
-    
-            /* TITLE */ 
-        --title-big-top : -30px;
-        --title-big-btm : -20px;
-        --title-small-top : -20px;
-        --title-small-btm : -10px;
 
-            /* SUB-TITLE */ 
-        --sub-title-big-top : -20px;
-        --sub-title-big-btm : -15px;
-        --sub-title-small-top : -10px;
-        --sub-title-small-btm : -10px;
+            /* H1-TITLE */ 
+        --h1-big-top   : -30px;
+        --h1-big-btm   : -20px;
+        --h1-small-top : -20px;
+        --h1-small-btm : -10px;
+
+            /* H2-TITLE */ 
+        --h2-big-top   : -20px;
+        --h2-big-btm   : -15px;
+        --h2-small-top : -10px;
+        --h2-small-btm : -10px;
 
     /*__ Colors __*/
 
@@ -79,18 +81,23 @@ body {
 }
 
 h1 {
-    font-family: var(--title-font);
-    font-size: var(--title-big-size);
-    margin-top: var(--title-big-top);
-    margin-bottom: var(--title-big-btm);
+    font-family: var(--h1-font);
+    font-size: var(--h1-big-size);
+    margin-top: var(--h1-big-top);
+    margin-bottom: var(--h1-big-btm);
 
 }
 
-h2, h3, h4 {
+h2 {
+    font-family: var(--h2-font);
+    font-size: var(--h2-big-size);
+    margin-top: var(--h2-big-top);
+    margin-bottom: var(--h2-big-btm);
+}
+
+h3, h4, h5, h6 {
     font-family: var(--sub-title-font);
-    font-size: var(--sub-title-big-size);
-    margin-top: var(--sub-title-big-top);
-    margin-bottom: var(--sub-title-big-btm);
+    font-size: var(--sub-title-size);
 }
 
 .lil-title {
