@@ -8,7 +8,7 @@
 
         <meta property="og:title" content="What Shit? Watch It!">
         <meta property="og:url" content="#">
-        <meta property="og:image" content="https://#/assets/pics/infoWhatPink.jpg">
+        <meta property="og:image" content="https://#/assets/pics/infoWhatDark.jpg">
         <meta property="og:description" content="Parlons cinéma, séries...">
         <meta property="og:site_name" content="What Shit? Watch It!">
         <meta property="og:type" content="site web">
@@ -17,14 +17,17 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Righteous&family=Rock+Salt&family=Special+Elite&display=swap" rel="stylesheet">
         
-        <link rel="icon" type="image/png" href="/assets/pics/wwFavicon.jpg">
+        <link rel="icon" type="image/png" href="assets/pics/wwFavicon.png">
 
         <title>What Shit ! | {{pageTitle}}</title>
 
-        <link rel="stylesheet" href="{{'/assets/style/default.css' | url }}">
+        <link rel="stylesheet" href="{{'assets/style/bootstrap.min.css' | url }}">
+        <link rel="stylesheet" href="{{'assets/style/default.css' | url }}">
+        <link rel ="stylesheet" href="assets/style/{{pageCss}}">
     </head>
 
     <body>
+        {% include "navbar.njk" %}
         <div class="window">
 
             <div class="stuff-container">
@@ -35,8 +38,8 @@
 
         </div>
         
-        <script src="{{'/assets/script/bootstrap.bundle.min.js' | url }}"></script>
-        <script src="{{'/assets/script/script.js' | url }}"></script>
+        <script src="{{'assets/script/bootstrap.bundle.min.js' | url }}"></script>
+        <script src="{{'assets/script/script.js' | url }}"></script>
         <script src="{{pageScript}}"></script>  
     </body>
 

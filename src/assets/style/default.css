@@ -91,16 +91,11 @@ body {
 h1 {
     font-family: var(--h1-font);
     font-size: var(--h1-big-size);
-    margin-top: var(--h1-big-top);
-    margin-bottom: var(--h1-big-btm);
-
 }
 
 h2 {
     font-family: var(--h2-font);
     font-size: var(--h2-big-size);
-    margin-top: var(--h2-big-top);
-    margin-bottom: var(--h2-big-btm);
 }
 
 h3, h4, h5, h6 {
